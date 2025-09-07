@@ -1,0 +1,96 @@
+/***************WRITE OFF*****************/
+
+.highlight1{
+    background-color: #E5EFF6 !important;
+    color: Black;
+}
+
+.highlight2{
+    background-color: #f2f2f2 !important;
+    color: Black;
+}
+
+ 
+/***************ตาราง*****************/
+.table1 {
+    table-layout: auto ; /*  fixed / auto makes the text-overflow function with percentage widths on the td or th */
+    border-collapse: collapse;
+    /*border: solid 1px rgba(0, 0, 0, 0.3);*/
+	
+ 
+  }
+ .table1  th {
+	  font-weight: normal ;
+	  vertical-align:middle;
+	  z-index:9999 ;
+}
+
+  .table1 td , th {
+	padding:5px 8px; 
+	border: solid  1px rgba(0, 0, 0,0.5);  
+    font-weight:normal;
+	vertical-align:top;
+			
+}
+  
+  .table1 th:first-child {
+    /*width: 10%;*/
+  }
+  
+  /* if the inner content gets higher, then the td will too. 
+  (max-height on td wouldn't have any effect. */
+  .table1 td > div {
+    /*height: $line-height;*/
+  }
+
+  .table1 tr:hover{
+    background-color: #f2f2f2 ;/*#d1d1d1 */
+	/*color:blue;*/
+	cursor: pointer;
+  }
+
+.tr_focus_green{
+    background-color: LightGreen   !important  ;/* PaleTurquoise  Aquamarine  #87bdf4  ; */
+}
+.tr_focus_yellow{
+    background-color: yellow   !important  ;/* PaleTurquoise  Aquamarine  #87bdf4  ; */
+}
+.tr_focus_sky{
+    background-color: #b3ffff   !important  ;/* PaleTurquoise  Aquamarine  #87bdf4  ; */
+}
+
+
+
+/***************ตาราง 2 ไม่มี hover *****************/
+.table2 {
+    table-layout: auto ; /*  fixed / auto makes the text-overflow function with percentage widths on the td or th */
+    border-collapse: collapse;
+    /*border: solid 1px rgba(0, 0, 0, 0.3);*/
+	
+ 
+  }
+ .table2  th {
+	    font-weight: normal ;
+		vertical-align: middle;
+}
+
+  .table2 td , th {
+   /* width: 18%;  will be changed to 10% for the first column which gives 10 + 18*5 = 100% */
+
+	/*padding: 0 1mm 0 1mm; */
+	padding: 2px 5px; /*top left*/
+	/*
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border-collapse: collapse;*/
+	/* height:10px; */
+	border: solid  1px rgba(0, 0, 0,0.3);  
+    font-weight:normal;
+	vertical-align:top;
+
+  }
+
+
+
+
